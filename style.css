@@ -14,6 +14,7 @@ nav {
 .nav.scrolled {
     box-shadow: 0 5px 10px #0000008b;
 }
+
 .nav-space {
     height: 50px;
 }
@@ -25,8 +26,9 @@ nav ul {
     gap: 10px;
 }
 
+
 .nav.scrolled img {
-    width: 100px;
+    width: 70px;
 }
 
 .nav img {
@@ -60,7 +62,7 @@ section {
 
 .s-text {
     max-width: 40vw;
-    font-size: clamp(20px, 1.5vw + 0.2rem, 1.4rem);
+    font-size: clamp(15px, 1.5vw + 0.2rem, 1.4rem);
 }
 
 .sa{
@@ -160,5 +162,11 @@ footer a {
     .s-text {
         max-width: 95%;
         text-align: center;
+    }
+}
+
+@media (max-width: 570px) {
+    nav li{
+        display: none;
     }
 }
